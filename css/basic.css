@@ -1,0 +1,26 @@
+/*------------------------------*/
+/* BASE                         */
+/* ---------------------------- */
+
+body {
+    background-color: #fff;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.25rem;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+form {
+    margin-bottom: 1.25rem;
+}
+
+input::placeholder {
+    color: #c4c4c4;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+}

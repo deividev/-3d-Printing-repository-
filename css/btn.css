@@ -1,0 +1,19 @@
+
+/***  BUTTONS ***/
+
+.btn {
+    width: 12.5rem;
+    height: 3.75rem;
+    font-size: 18px;
+    margin: 15px 0;
+    color: black;
+    border-radius: 4px;
+    border: 2px solid #111;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.btn__primary{
+    background-color: #283445;
+    color: #fff;
+}

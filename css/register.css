@@ -1,0 +1,19 @@
+
+.container {
+  display: grid;
+  text-align: center;
+  height: 100%;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+
+.form__group {
+  flex-shrink: 1;
+}
