@@ -8,49 +8,111 @@
   <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-  <h1>Colors</h1>
-  <div class="color">
-    <h2>Primary</h2>
-    <div class="color__primary">
+  <section>
+    <h1>Colors</h1>
+    <hr>
+    <div class="color">
+      <h3>Primary</h3>
+      <div class="color__primary">
+      </div>
+      <h3>Secondary</h3>
+      <div class="color__secondary">
+      </div>
+      <h3>Third</h3>
+      <div class="color__third">
+      </div>
+      <h3>Fourth</h3>
+      <div class="color__fourth">
+      </div>
+      <h3>Red</h3>
+      <div class="color__red">
+      </div>
     </div>
-    <h2>Secondary</h2>
-    <div class="color__secondary">
-    </div>
-    <h2>Third</h2>
-    <div class="color__third">
-    </div>
-    <h2>Fourth</h2>
-    <div class="color__fourth">
-    </div>
-    <h2>Red</h2>
-    <div class="color__red">
-    </div>
-  </div>
-  <div class="icons">
-    <div class="icons__color1">
-    <h2>Icons1</h2>
-      <svg id="google">
-        <use xlink:href="../assets/svg/sprite.svg#collection"></use>
-      </svg>
-    </div>
-    <div class="icons__color2">
-      <h2>Icons2</h2>
-        <svg id="google">
-          <use xlink:href="../assets/svg/sprite.svg#collection-hover"></use>
+    <div class="icons">
+      <div class="icons__color1">
+      <h3>Icons1</h3>
+        <svg class="svgBtn">
+          <use xlink:href="../assets/svg/sprite.svg#collection"></use>
         </svg>
       </div>
-    <h2 >Texto</h2>
-    <div class="icons__text">
+      <div class="icons__color2">
+        <h3>Icon hover</h3>
+          <svg class="svgBtn">
+            <use xlink:href="../assets/svg/sprite.svg#collection-hover"></use>
+          </svg>
+        </div>
+      <h3 >Texto</h3>
+      <div class="text">
+      </div>
+      <h3 >Texto secondary</h3>
+      <div class="textSecondary">
+      </div>
+      <h3>Gray 1</h3>
+      <div class="gray1">
+      </div>
+      <h3>Gray 2</h3>
+      <div class="gray2">
+      </div>
     </div>
-    <h2 >Texto secondary</h2>
-    <div class="icons__textSecondary">
-    </div>
-    <h2>Gray 1</h2>
-    <div class="gray1">
-    </div>
-    <h2>Gray 2</h2>
-    <div class="gray2">
-    </div>
+  </section>
+  <section class="botones">
+    <h2>Buttons</h2>
+    <hr>
+    <button class="btn btn__first" type="button">First</button>
+    <button class="btn btn__second" type="button">Second</button>
+    <button class="btn btn__third" type="button">Third</button>
   </div>
+  </section>
+  <section class="section">
+    <h2>Avatars</h2>
+    <div class="avatar1">
+      <h3 class="avatar__user">Da</h3>
+    </div>
+    <div class="avatar2">
+      <div class="avatar2__container"></div>
+    <h3 class="avatar__hover">Devidev</h3>
+    </div> 
+  </section>
+  <section>
+    <h2>Inputs</h2>
+    <hr>
+    <form action="#" >
+      <div class="form__group"></div>
+        <label class="form__label" for="">Titulo</label>
+        <input class="form__input" type="text" placeholder="Value">
+      </div>
+      <div class="form__group"></div>
+        <label class="form__label" for="">Titulo</label>
+        <input class="form__input" type="text" placeholder="Placeholder">
+      </div>
+      <div class="form__group"></div>
+        <label class="form__label" for="">Titulo</label>
+        <input class="form__input" type="text" placeholder="Focus">
+      </div><div class="form__group"></div>
+      <label class="form__label" for="">Titulo</label>
+      <input class=" form__input form__input--error" type="text" placeholder="Error">
+    </div>
+    </form>
+    <section class="botones">
+      <h2>Text</h2>
+      <hr>
+      <div class="header__container">
+        <h1>Roboto</h1>
+        <h2 class="medium">Medium</h2>
+        <h3 class="regular">Regular</h3>
+        <h4 class="light">light</h4>
+      </div>
+      <div class="header__container">
+        <h1>H1</h1>
+        <h2>H2</h2>
+        <h3>H3</h3>
+        <h4>H4</h4>
+        <h5>H5</h5>
+        <p>Text</p>
+        <p class="text__sm">Text small</p>
+      </div>
+    </div>
+    </section>
+  </section>
 </body>
 </html>

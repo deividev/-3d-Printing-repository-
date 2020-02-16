@@ -1,5 +1,11 @@
 /*** UI-KIT ***/
 
+.section {
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .color {
   margin: 20px 20px;
   display: flex;
@@ -19,7 +25,7 @@
   width: 100px;
   height: 50px;
   margin: 30px 20px;
-  background-color: #343239;
+  background-color: #232240;
   border-radius: 4px;
 }
 
@@ -48,6 +54,10 @@
   border-radius: 4px;
 }
 
+
+/*** ICONS ***/
+/*------------*/
+
 .icons {
   display: flex;
   align-items: center;
@@ -61,7 +71,11 @@
   border-radius: 4px;
 }
 
-.icons__text {
+
+/*** COLOR TEXT ***/
+/*----------------*/
+
+.text {
   width: 70px;
   height: 50px;
   margin: 30px 20px;
@@ -69,7 +83,7 @@
   border-radius: 4px;
 }
 
-.icons__textSecondary {
+.textSecondary {
   width: 70px;
   height: 50px;
   margin: 30px 20px;
@@ -78,18 +92,93 @@
 }
 
 .gray1 {
-  width: 100px;
-  height: 50px;
+  width: 6.25rem;
+  height: 3.125rem;
   margin: 30px 20px;
   background-color: #bababf;
   border-radius: 4px;
 }
 
 .gray2 {
-  width: 100px;
-  height: 50px;
+  width: 6.25rem;
+  height: 3.125rem;
   margin: 30px 20px;
   background-color: #f2f2f2;
   border-radius: 4px;
 }
 /*  color :#343239*/
+
+/*** BUTTONS ***/
+/*---------------*/
+.btn__first{
+  background-color: #232240;
+  color: #f1f1f1;
+}
+
+.btn__first:hover{
+  background-color: #343351;
+  color: #f2f2f2;
+}
+
+.btn__second {
+  background-color: #555;
+  color: #f1f1f1;
+}
+
+.btn__second:hover {
+  background-color: #666;
+  color: #f2f2f2;
+}
+
+.btn__third {
+  background-color: #f03d33;
+  color: #f1f1f1;
+}
+
+.btn__third:hover {
+  background-color: #f14d44;
+  color: #f1f1f1;
+}
+
+/*** AVATAR ***/
+/*-------------*/
+
+.avatar1 {
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border: 1px solid;
+  border-radius: 50%;
+  background-color: #c4f2ee;
+}
+
+.avatar__user {
+ color: #555;
+}
+
+.avatar2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.avatar2__container {
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  border: 1px solid;
+  border-radius: 50%;
+  background-color: #c4f2ee;
+}
+
+.avatar__hover {
+  color: #f2f2f2;
+  background-color: #333;
+  font-size: 16px;
+ }

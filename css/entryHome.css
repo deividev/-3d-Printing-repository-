@@ -1,0 +1,15 @@
+/*** ENTRYHOME  ***/
+
+
+.grid {
+  height: 325px;
+  width: 100%;
+  
+}
+.entryHome__container {
+  height: 325px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
