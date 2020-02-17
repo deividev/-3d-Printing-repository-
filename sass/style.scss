@@ -1,3 +1,19 @@
-html {
-  background-color: red;
-}
+// GLOBAL
+
+
+@import "global/reset";
+@import "global/basic";
+
+
+
+// COMPONENTS
+// ----------
+
+@import "components/form";
+@import "components/ui_kit";
+@import "components/btn";
+@import "components/register";
+@import "components/icons";
+@import "components/header";
+@import "components/entryHome";
+
