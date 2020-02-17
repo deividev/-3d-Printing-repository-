@@ -12,11 +12,11 @@
 
 .navbar {
   width: 100%;
+  
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: #333;
-
 }
 
 .navbar__categories {
@@ -25,18 +25,13 @@
 }
 
 .navbar__btn {
-  max-height: 9rem;
-  padding: 70px 35px;
+  padding: 25px 35px;
   font-size: 20px;
   text-transform: uppercase;
   color: #f1f1f1;
 }
 
 .navbar__btn:hover {
-  max-height: 9rem;
-  padding: 70px 35px;
-  font-size: 20px;
-  text-transform: uppercase;
   color: #f1f1f1;
   background-color: #444;
 }
