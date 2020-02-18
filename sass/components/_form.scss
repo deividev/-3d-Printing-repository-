@@ -11,55 +11,55 @@
 }
 
 .form__group {
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    margin: 10px 0px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin: 10px;
 }
 
-.form__group--double {
-  display: inline-flex;
+.form-row {
+  display: flex;
+  align-items: center;
+  flex-grow: 2;
+  text-align: left;
+  
 }
-
 .form__label {
-    padding: 16px 0px;
+  color: #111;
+  padding: 5px 0px;
 }
 
 .form__input {
     height: 2.5rem;
     font-size: 20px;
-    padding: 5px;
-    border: 1px solid #333;
+    border: 1px solid #111;
     border-radius: 4px;
     background-color: #fff;
-}
-.form__input--icon {
-  background-image: url(../../assets/images/Soporte-movil-2.jpg);
-  background-position: right;
+    color: #111;
 }
 
 .form__input::placeholder {
     font-size: 20px;
-    color: #bababf;
+    color: #e3e1e4;
     padding-left: 5px;
 }
 
 .form__input:focus {
-    border-color: #c4f2ee;
+    border-color: #e3e1e4;
 }
 
 .form__input--error {
-    border-color: #f03d33;
+    border-color: #ef3e34;
 }
 
 .form__link {
     color: #666;
     text-decoration: #666;
-    margin-left: 4px;
+    padding: 5px;
 }
 
 .form__redirects {
-    display: flex;
+    display: inline-flex;
     align-items: center;
 }
 

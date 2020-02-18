@@ -1,15 +1,13 @@
 /*** ENTRYHOME  ***/
 
-
-.grid {
-  height: 325px;
-  width: 100%;
-  
-}
-.entryHome__container {
-  height: 325px;
-  width: 100%;
+.entryHome {
   display: flex;
-  flex-direction: column;
   justify-content: center;
+  height: 20.313rem;
+}
+
+.entryHome__container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }

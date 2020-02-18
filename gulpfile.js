@@ -15,9 +15,9 @@ sass.compiler = require('node-sass');
 gulp.task('sass', function () {
   return gulp.src('./sass/**/*.scss')
   .pipe(sourcemaps.init())
-    .pipe(sass().on('error', sass.logError))
-    .pipe(sourcemaps.write('../../sass/sourcemap/'))
-    .pipe(gulp.dest('./assets/css'));
+  .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
+  .pipe(sourcemaps.write('../../sass/sourcemap/'))
+  .pipe(gulp.dest('./assets/css'));
 });
 
 // Vigilar si hay algún cambio en los SCSS

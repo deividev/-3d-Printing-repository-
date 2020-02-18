@@ -8,15 +8,19 @@
   padding: 15px 10px;
 }
 
+.header__user {
+  display: flex;
+  align-items: center;
+}
+
 /*** NAVBAR ***/
 
 .navbar {
   width: 100%;
-  
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #333;
+  background-color: #34333b;
 }
 
 .navbar__categories {
@@ -25,10 +29,12 @@
 }
 
 .navbar__btn {
-  padding: 25px 35px;
+  padding: 25px 25px;
   font-size: 20px;
   text-transform: uppercase;
-  color: #f1f1f1;
+  color: #faf9fe;
+  cursor: pointer;
+  transition: 0.25s linear;
 }
 
 .navbar__btn:hover {

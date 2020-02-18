@@ -14,43 +14,50 @@
 }
 
 .color__primary {
-  width: 100px;
-  height: 50px;
-  margin: 30px 20px;
-  background-color: #333;
+  width: 6.25rem;
+  height: 3.125rem;
+  margin: 30px 5px;
+  background-color: #34333b;
   border-radius: 4px;
 }
 
 .color__secondary {
-  width: 100px;
-  height: 50px;
+  width: 6.25rem;
+  height: 3.125rem;
   margin: 30px 20px;
-  background-color: #232240;
+  background-color: #666;
   border-radius: 4px;
 }
 
 .color__third {
-  width: 100px;
-  height: 50px;
+  width: 6.25rem;
+  height: 3.125rem;
+  margin: 30px 20px;
+  background-color: #e3e1e4;
+  border-radius: 4px;
+}
+
+.color__fourth {
+  width: 6.25rem;
+  height: 3.125rem;
+  margin: 30px 20px;
+  background-color: #faf9fe;
+  border-radius: 4px;
+}
+
+.color__fifty {
+  width: 6.25rem;
+  height: 3.125rem;
   margin: 30px 20px;
   background-color: #c4f2ee;
   border-radius: 4px;
 }
 
-.color__fourth {
-  width: 100px;
-  height: 50px;
+.color__red { 
+  width: 6.25rem;
+  height: 3.125rem;
   margin: 30px 20px;
-  border: 2px solid #f2f2f2;
-  background-color: #fff;
-  border-radius: 4px;
-}
-
-.color__red {
-  width: 100px;
-  height: 50px;
-  margin: 30px 20px;
-  background-color: #f03d33;
+  background-color: #ef3e34;
   border-radius: 4px;
 }
 
@@ -65,8 +72,8 @@
 }
 
 .icons__color1, .icons__color2 {
-  width: 70px;
-  height: 50px;
+  width: 4.375rem;
+  height: 3.125rem;
   margin: 30px 20px;
   border-radius: 4px;
 }
@@ -76,16 +83,16 @@
 /*----------------*/
 
 .text {
-  width: 70px;
-  height: 50px;
+  width: 4.375rem;
+  height: 3.125rem;
   margin: 30px 20px;
   background-color: #111;
   border-radius: 4px;
 }
 
 .textSecondary {
-  width: 70px;
-  height: 50px;
+  width: 4.375rem;
+  height: 3.125rem;
   margin: 30px 20px;
   background-color: #555;
   border-radius: 4px;
@@ -95,7 +102,7 @@
   width: 6.25rem;
   height: 3.125rem;
   margin: 30px 20px;
-  background-color: #bababf;
+  background-color: #666;
   border-radius: 4px;
 }
 
@@ -103,42 +110,12 @@
   width: 6.25rem;
   height: 3.125rem;
   margin: 30px 20px;
-  background-color: #f2f2f2;
+  background-color: #e3e1e4;
   border-radius: 4px;
 }
 /*  color :#343239*/
 
-/*** BUTTONS ***/
-/*---------------*/
-.btn__first{
-  background-color: #232240;
-  color: #f1f1f1;
-}
 
-.btn__first:hover{
-  background-color: #343351;
-  color: #f2f2f2;
-}
-
-.btn__second {
-  background-color: #555;
-  color: #f1f1f1;
-}
-
-.btn__second:hover {
-  background-color: #666;
-  color: #f2f2f2;
-}
-
-.btn__third {
-  background-color: #f03d33;
-  color: #f1f1f1;
-}
-
-.btn__third:hover {
-  background-color: #f14d44;
-  color: #f1f1f1;
-}
 
 /*** AVATAR ***/
 /*-------------*/
@@ -153,6 +130,7 @@
   border: 1px solid;
   border-radius: 50%;
   background-color: #c4f2ee;
+  cursor: pointer;
 }
 
 .avatar__user {

@@ -1,50 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Register</title>
-
-    <link rel="stylesheet" href="../assets/css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 <body>
-    <main>
-        <div class="container">
-            <div class="form">
-                <div class="form__logo">
-                  <img  src="../assets/images/logo.jpg" width="400px" height="400px" alt="">
-                </div>
-                <button class="btn" type="button">
-                    <svg class="svgBtn">
-                        <use xlink:href="../assets/svg/sprite.svg#google"></use>
-                    </svg>
-                </button>
-                <form action="submit">
-                    <div class="form__group ">
-                        <label class="form__label" for="name" >Name</label>
-                        <input class="form__input" type="text"  id="name">
-                    </div>
-                    <div class="form__group ">
-                        <label class="form__label" for="email" >Email</label>
-                        <input class="form__input" type="text"  id="email">
-                    </div>
-                    <div class="form__group ">
-                        <label class="form__label form__label--large" for="username" >Username</label>
-                        <input class="form__input" type="text"  id="username">
-                    </div>
-                    <div class="form__group ">
-                        <label class="form__label" for="password" >Password</label>
-                        <input class="form__input" type="password"  id="password">
-                    </div>
-                    <div class="form__group ">
-                        <label class="form__label" for="confirmPassword" >Confirm password</label>
-                        <input class="form__input form__input--icon" type="password"  id="confirmPassword" >
-                    </div>
-                    <button class="btn btn__first" type="submit">Register</button>
-                </form>
-            </div>
-            <div class="background"></div>
+  <main>
+    <div class="container">
+      <div class="form">
+        <div class="form__logo">
+          <img  src="../assets/images/logo.jpg" width="400px" height="400px" alt="">
         </div>
-    </main>
+        <button class="btn" type="button">
+            <svg class="svgBtn">
+                <use xlink:href="../assets/svg/sprite.svg#google"></use>
+            </svg>
+        </button>
+        <form action="submit">
+          <div class="form-row">
+            <div class="form__group ">
+                <label class="form__label" for="name" >Name</label>
+                <input class="form__input" type="text"  id="name">
+            </div>
+            <div class="form__group ">
+                <label class="form__label" for="email" >Email</label>
+                <input class="form__input" type="text"  id="email">
+            </div>
+          </div>
+          <div class="form__group ">
+              <label class="form__label form__label--large" for="username" >Username</label>
+              <input class="form__input" type="text"  id="username">
+          </div>
+          <div class="form-row">
+            <div class="form__group ">
+                <label class="form__label" for="password" >Password</label>
+                <input class="form__input" type="password"  id="password">
+            </div>
+            <div class="form__group ">
+                <label class="form__label" for="confirmPassword" >Confirm password</label>
+                <input class="form__input " type="password"  id="confirmPassword">
+                
+            </div>
+          </div>
+          <button class="btn btn__first" type="submit">Register</button>
+          <svg class="svgBtn">
+            <use xlink:href="../assets/svg/sprite.svg#eye"></use>
+          </svg>
+        </form>
+      </div>
+      <div class="background"></div>
+    </div>
+  </main>
 </body>
 </html>
