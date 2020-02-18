@@ -11,8 +11,11 @@
     cursor: pointer;
     text-align: center;
 }
-
-
+.btn--icons {
+  padding: 8px;
+  background-color: transparent;
+  border: 0;
+}
 
 .btn__first{
     background-color: #34333b;
@@ -45,6 +48,14 @@
 .btn__third:hover {
     background-color: #f35c54;
     color: #faf9fe;
+}
+
+
+//MODEL BTN
+//---------
+
+.model {
+  border: 1px solid;
 }
 
 
