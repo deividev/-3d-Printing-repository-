@@ -1,9 +1,13 @@
 
 /***  BUTTONS ***/
+.logo {
+  background-color: transparent;
+}
 
 .btn {
     font-size: 16px;
     padding: 8px 20px;
+    margin: 10px;
     color: #f1f1f1;
     border-radius: 4px;
     border: 1px solid #333;
@@ -51,11 +55,30 @@
 }
 
 
-//MODEL BTN
-//---------
 
-.model {
-  border: 1px solid;
+//BUTTONS ICON
+//--------
+
+.input--icon{
+  position: relative;
+  transition: 0.25s linear;
+}
+
+.input--icon svg {
+  position: absolute;
+  right:0px;
+  bottom: 0px;
+  cursor: pointer;
+  border-radius: 4px;
+  background-color: rgba(102, 102, 102, 0.2);
+}
+
+.input--icon svg:hover {
+  position: absolute;
+  right:0px;
+  bottom: 0px;
+  cursor: pointer;
+  background-color: rgba(165, 165, 165, 0.5);
 }
 
 
