@@ -32,7 +32,7 @@
 
 .form__input {
     height: 2.5rem;
-    font-size: 20px;
+    font-size: rem(20px);
     border: 1px solid #111;
     border-radius: 4px;
     background-color: #fff;
@@ -40,7 +40,7 @@
 }
 
 .form__input::placeholder {
-    font-size: 20px;
+    font-size: rem(20px);
     color: #e3e1e4;
     padding-left: 5px;
 }

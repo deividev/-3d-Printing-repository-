@@ -3,7 +3,7 @@
 
 
 .header__container {
-  height: 60px;
+  height: rem(60px);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -28,7 +28,7 @@
 
 .navbar__btn {
   padding: 25px 25px;
-  font-size: 20px;
+  font-size: rem(20px);
   text-transform: uppercase;
   color: #faf9fe;
   cursor: pointer;

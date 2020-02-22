@@ -1,9 +1,11 @@
 // GLOBAL
 
-
-@import "global/reset";
-@import "global/basic";
 @import "global/variables";
+@import "global/reset";
+@import "mixins/mixins";
+
+@import "global/basic";
+
 
 
 // COMPONENTS
