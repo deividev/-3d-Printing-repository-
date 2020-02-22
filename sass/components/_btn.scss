@@ -44,14 +44,14 @@
 }
 
 .btn__third {
-    background-color: #ef3e34;
+    background-color: $red;
     color: #f1f1f1;
     transition: 0.2s linear;
 }
 
 .btn__third:hover {
-    background-color: #f35c54;
-    color: #faf9fe;
+    background-color: #fa564d;
+    color: $text-second;
 }
 
 
@@ -73,9 +73,8 @@
   background-color: rgba(102, 102, 102, 0.2);
 }
 
-.input--icon svg {
-  cursor: pointer;
-  background-color: $text-default;
+.input--icon svg:hover {
+  background-color: rgba(165, 165, 165, 0.5);
 }
 
 
