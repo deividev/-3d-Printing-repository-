@@ -22,7 +22,7 @@
 }
 
 .btn__first{
-    background-color: #34333b;
+    background-color: $primary;
     color: #e3e1e4;
     transition: 0.2s linear;
 }
@@ -33,7 +33,7 @@
 }
 
 .btn__second {
-    background-color: #e3e1e4;
+    background-color: $second;
     color: #111;
     transition: 0.2s linear;
 }
@@ -73,12 +73,9 @@
   background-color: rgba(102, 102, 102, 0.2);
 }
 
-.input--icon svg:hover {
-  position: absolute;
-  right:0px;
-  bottom: 0px;
+.input--icon svg {
   cursor: pointer;
-  background-color: rgba(165, 165, 165, 0.5);
+  background-color: $text-default;
 }
 
 

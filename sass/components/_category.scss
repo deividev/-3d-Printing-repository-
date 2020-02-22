@@ -10,14 +10,17 @@
 
 .category__line {
   width: 100%;
+  margin-bottom: 40px;
   border: 1px solid #111;
+
 }
 
-.category__grid {
-  margin: 50px;
+.category__container {
+  display: flex;
+  justify-content: center;
 }
 
 .model {
-  border: 1px solid;
   padding: 15px;
+  border: 1px solid;
 }
