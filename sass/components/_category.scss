@@ -3,17 +3,30 @@
 
 .category {
 
+  &__head {
+    height: rem(280px);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 0px 0px 235px;
+  }
+
   &__title {
-    padding: 10px 30px;
-    color: #333;
+    color: $text-default;
     text-transform: uppercase;
+    font-weight: 700;
+  }
+
+  &__title--home {
+    font-weight: 500;
+    padding: 0px 0px 0px 235px;
   }
 
   &__line {
     width: 100%;
     margin-bottom: 40px;
     border: 1px solid $text-second;
-  
   }
 
   &__container {
@@ -21,6 +34,7 @@
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    margin: 20px 0;
     padding: 0px 50px;
   }
 }
