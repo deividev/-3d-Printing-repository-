@@ -13,7 +13,8 @@ body {
 /*------*/
 
 h1 {
-  font-size: rem(35px);
+  font-size: rem(40px);
+  font-weight: 500;
   padding: 10px 0px;
 }
 
@@ -62,6 +63,7 @@ section {
 /*------------*/
 
 a {
+  color: $gray-200;
   text-decoration: none;
   cursor: pointer;
 }

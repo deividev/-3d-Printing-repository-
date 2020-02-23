@@ -5,61 +5,67 @@
 }
 
 .btn {
-    font-size: rem(16px);
-    padding: 8px 20px;
-    margin: 10px;
-    color: #f1f1f1;
-    border-radius: 4px;
-    border: 0;
-    background-color: transparent;
-    cursor: pointer;
-    text-align: center;
-}
-.btn--icons {
-  padding: 8px;
+  font-size: rem(16px);
+  padding: 8px 20px;
+  margin: 10px;
+  color: $text-default;
+  border-radius: 4px;
+  border: 1px solid $text-default;
   background-color: transparent;
-  border: 0;
-}
+  cursor: pointer;
+  text-align: center;
 
-.btn__first{
+  &:hover {
+    color: $gray-300;
+    border-color: 1px solid $gray-300;
+  }
+
+  &--icons {
+    background-color: transparent;
+    border: 0;
+  }
+
+  &--profile {
+    padding: 8px;
+    background-color: transparent;
+    color: $text-default;
+    font-size: rem(22px);
+    border: 0;
+  }
+
+  &__first{
     background-color: $primary;
     color: #e3e1e4;
     transition: 0.2s linear;
-}
+  }
 
-.btn__first:hover{
-    background-color: #4d4a61;
-    color: #111;
-}
-
-.btn__second {
-    background-color: $second;
-    color: #111;
+  &__second {
+    background-color: $gray-300;
+    color: $gray-100;
     transition: 0.2s linear;
-}
+  }
 
-.btn__second:hover {
-    background-color: #f3f3f3;
-    color: #555;
-}
+  &__second:hover {
+    background-color: $second-hover;
+    color: $text-default;
+  }
 
-.btn__third {
+  &__third {
     background-color: $red;
     color: #f1f1f1;
     transition: 0.2s linear;
+  }
+
+  &__third:hover {
+    background-color: $red-hover;
+    color: $text-default;
+  }
 }
-
-.btn__third:hover {
-    background-color: #fa564d;
-    color: $text-second;
-}
-
-
-
+//------------
 //BUTTONS ICON
-//--------
+//------------
 
-.input--icon{
+.input--icon {
   position: relative;
   transition: 0.25s linear;
 }
@@ -74,8 +80,11 @@
 }
 
 .input--icon svg:hover {
-  background-color: rgba(165, 165, 165, 0.5);
+  background-color: rgba(219, 219, 219, 0.5);
 }
 
 
-
+.btn__user {
+  display: flex;
+  flex-direction: row;
+}

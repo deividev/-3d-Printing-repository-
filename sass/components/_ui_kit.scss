@@ -129,12 +129,12 @@
   height: 50px;
   border: 1px solid;
   border-radius: 50%;
-  background-color: #c4f2ee;
+  background-color: $fourth;
   cursor: pointer;
 }
 
 .avatar__user {
- color: #555;
+ color: $gray-300;
 }
 
 .avatar2 {
@@ -152,7 +152,7 @@
   height: 20px;
   border: 1px solid;
   border-radius: 50%;
-  background-color: #c4f2ee;
+  background-color: $fourth;
 }
 
 .avatar__hover {

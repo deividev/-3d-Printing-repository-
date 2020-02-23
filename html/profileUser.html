@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile</title>
+
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+  
+  <!-- **** -->
+  <!-- HEADER -->
+  <header class="header">
+    <div class="header__container">
+      <svg class="svgBtn">
+        <use xlink:href="../assets/svg/sprite.svg#location"></use>
+      </svg>
+      <div class="search">
+        <label class="search__label" for="search"></label>
+        <div class="input--icon">
+          <input class="form__input  search__input" id="search" type="text">
+          <svg class="svgBtn">
+            <use xlink:href="../assets/svg/sprite.svg#search"></use>
+          </svg>
+        </div>
+      </div>
+        <div class="btnHeader">
+          <a class="btn btn__third" type="button">Upload</a>
+          <button class="btn btn--icons" type="button">
+            <svg class="svgBtn">
+              <use xlink:href="../assets/svg/sprite.svg#collection"></use>
+            </svg>
+          </button>
+          <button class="btn btn--icons" type="button">
+            <svg class="svgBtn">
+              <use xlink:href="../assets/svg/sprite.svg#bell"></use>
+            </svg>
+          </button>
+          <a class="avatar1" href="userProfile.html">Dd</a>
+        </div>
+    </div>
+  </header>
+  <!-- HEADER -->
+  <!-- **** -->
+  <main>
+    <!-- **** -->
+    <!-- ENTRY USER -->
+    <div class="user">
+      <div class="avatar">
+        <img class="avatar__img" src="../assets/images/Logo Deivid Dev .png"  alt="">
+        <form class="form" action="..."></form>
+            <label class="avatar__label" for="file">Change image</label>
+            <input class="avatar__input--file" id="file" type="file">
+        </form>
+      </div>
+      
+      <div class="avatar__info">
+        <h1>Deividev</h1>
+        <div class="avatar__info--btn">
+          <button class="btn" type="button">Edit</button>
+          <button class="btn btn--icons" type="button">
+            <svg class="svgBtn">
+              <use xlink:href="../assets/svg/sprite.svg#exit"></use>
+            </svg>
+          </button>
+        </div>
+          <div class="avatar--social">
+          <p>Modelador 3d, programador amateur y amante de los videojuegos.</p>
+          </div>
+          <div class="avatar__info--link">
+            <span>
+              <svg class="svgBtn">
+                  <use xlink:href="../assets/svg/sprite.svg#location"></use>
+              </svg>
+              <p>
+                Madrid
+              </p>
+            </span>
+            <a href="#">artstation.com/deividev</a>
+            <a href="#">@deividev</a>
+          </div>
+      </div>
+    </div>
+    <!-- ENTRY USER -->
+    <!-- **** -->
+    <nav class="navbar__profile">
+      <button class="btn  category__title btn--profile" type="button">Models</button>
+      <button class="btn  category__title btn--profile" type="button">Collections</button>
+      <button class="btn  category__title btn--profile" type="button">Message</button>
+      <div class="category__line"></div>
+      <section class="category">
+        <h2 class="category__title">New</h2>
+        <div class="category__line"></div>
+        <div class="category__container">
+          <img class="model" src="../assets/images/Soporte movil.jpg" alt="" width="250px" height="250px" class="category__model">
+          <img class="model" src="../assets/images/Sucjection para GoPro-3.jpg" alt="" width="250px" height="250px" class="category__model">
+          <img class="model" src="../assets/images/Exo-esqueleto hand.jpg" alt="" width="250px" height="250px" class="category__model">
+          <img class="model" src="../assets/images/Box-tarjetas SD.jpeg" alt="" width="250px" height="250px" class="category__model">
+        </div>
+      </section>
+    </nav>
+  </main>
+</body>
+</html>

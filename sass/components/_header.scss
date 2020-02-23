@@ -1,7 +1,6 @@
 /*** HEADER  ***/
 /*------------*/
 
-
 .header__container {
   height: rem(60px);
   display: flex;
@@ -11,6 +10,7 @@
 }
 
 
+
 /*** NAVBAR ***/
 
 .navbar {
@@ -18,24 +18,41 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #34333b;
+  background-color: $primary;
+
+  &__categories {
+    display: flex;
+    align-items: center;
+  }
+
+  &__btn {
+    padding: 25px 25px;
+    font-size: rem(20px);
+    text-transform: uppercase;
+    color: $third;
+    cursor: pointer;
+    transition: 0.25s linear;
+  }
+
+  &__btn:hover {
+    color: $third;
+    background-color: $gray-300;
+  }
+
+  &__btn--underline {
+    border-bottom: 4px solid $gray-200;
+  }
 }
 
-.navbar__categories {
+//-----
+// BTNS RIGTH
+
+.btnHeader {
+  height: rem(60px);
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
-.navbar__btn {
-  padding: 25px 25px;
-  font-size: rem(20px);
-  text-transform: uppercase;
-  color: #faf9fe;
-  cursor: pointer;
-  transition: 0.25s linear;
-}
 
-.navbar__btn:hover {
-  color: #f1f1f1;
-  background-color: #444;
-}
+

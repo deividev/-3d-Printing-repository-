@@ -1,26 +1,36 @@
 // CATEGORYS
 //---------
 
+.category {
 
-.category__title {
-  padding: 10px 30px;
-  color: #333;
-  text-transform: uppercase;
+  &__title {
+    padding: 10px 30px;
+    color: #333;
+    text-transform: uppercase;
+  }
+
+  &__line {
+    width: 100%;
+    margin-bottom: 40px;
+    border: 1px solid $text-second;
+  
+  }
+
+  &__container {
+    display: flex;
+    justify-content: center;
+  }
 }
 
-.category__line {
-  width: 100%;
-  margin-bottom: 40px;
-  border: 1px solid #111;
-
-}
-
-.category__container {
-  display: flex;
-  justify-content: center;
-}
-
+//------
+// IMG MODEL 3D
+//------
 .model {
+  padding: 15px;
+  border: 1px solid;
+}
+
+.model:hover {
   padding: 15px;
   border: 1px solid;
 }

@@ -4,3 +4,8 @@
   width: 3.2rem;
   height: 2.5rem;
 }
+
+.svgBtn:hover {
+  background-color: $gray-100;
+  stroke: $gray-100;
+}
