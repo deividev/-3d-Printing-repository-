@@ -18,7 +18,10 @@
 
   &__container {
     display: flex;
+    align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
+    padding: 0px 50px;
   }
 }
 
@@ -26,11 +29,12 @@
 // IMG MODEL 3D
 //------
 .model {
-  padding: 15px;
-  border: 1px solid;
+  width: rem(350px);
+  height: rem(350px);
+  padding:  15px;
 }
 
 .model:hover {
-  padding: 15px;
-  border: 1px solid;
+  padding: 20px;
+  box-shadow: darken($color: #000000, $amount: 0);
 }
