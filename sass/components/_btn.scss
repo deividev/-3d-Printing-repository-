@@ -7,7 +7,7 @@
 .btn {
   font-size: rem(16px);
   padding: 8px 20px;
-  margin: 10px;
+  margin: 5px;
   color: $text-default;
   border-radius: 4px;
   border: 1px solid $text-default;
@@ -22,6 +22,11 @@
 
   &--icons {
     background-color: transparent;
+    border: 0;
+  }
+ 
+  &--icons:focus {
+    background-color: transparent; 
     border: 0;
   }
 
@@ -73,10 +78,9 @@
 .input--icon svg {
   position: absolute;
   right:0px;
-  bottom: 0px;
+  bottom: 3px;
   cursor: pointer;
-  border-radius: 4px;
-  background-color: rgba(102, 102, 102, 0.2);
+  border-radius: 4px; 
 }
 
 .input--icon svg:hover {
