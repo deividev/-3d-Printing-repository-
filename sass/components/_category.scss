@@ -8,19 +8,14 @@
     width: 100%;
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-direction: column;
-    padding: 0px 0px 0px 235px;
   }
 
   &__title {
     color: $text-default;
     text-transform: uppercase;
     font-weight: 700; 
-  }
-
-  &__title--home {
-    font-weight: 500;
-    padding: 0px 0px 0px 235px;
   }
 
   &__line {
@@ -34,8 +29,8 @@
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    margin: 20px 0;
-    padding: 0px 50px;
+    margin: 60px 0;
+    padding: 0px 160px;
   }
 }
 
@@ -45,10 +40,12 @@
 .model {
   width: rem(350px);
   height: rem(350px);
-  padding:  15px;
+  margin: 30px 10px;
+  padding:  20px;    
+  transition: 0.25s linear;   
 }
 
 .model:hover {
-  padding: 20px;
+  padding: 10px;
   box-shadow: darken($color: #000000, $amount: 0);
 }
