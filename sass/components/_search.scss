@@ -2,12 +2,38 @@
 //---------
 
 .search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 50rem;
-  margin: 20px 0px;
+  height: 2.5rem;
+  font-size: rem(20px);
+  font-family: 'Roboto', sans-serif;
+  border-radius: 4px;
+  color: $text-default;
+  background-color: rgba(102, 102, 102, 0.2);
+
+  &__control {
+    padding: 15px 30px 15px 5px;
+    width: 100%;
+    background-color: transparent;
+    border: 0px;
+  }
+
+  &__control--icon {
+    width: rem(10px); 
+    height: 100%; 
+    background-color: transparent;
+    border: 0;
+    font-size: rem(16px);   
+    padding: 8px 20px;
+    border-radius: 0px 4px 4px 0px;
+    background-color: $gray-200;    
+    cursor: pointer;
+    text-align: center;
+  }
+
 }
 
-.search__input {
-  width: 100%;
-  background-color: rgba(102, 102, 102, 0.2);
-  border: 0px;
-}
+
+

@@ -6,9 +6,8 @@
 
 .btn {
   font-size: rem(16px);
-  padding: 8px 20px;
   margin: 5px;
-  color: $text-default;
+  padding: 8px 20px;
   border-radius: 4px;
   border: 1px solid $text-default;
   background-color: transparent;
@@ -19,26 +18,19 @@
     color: $gray-300;
     border-color: 1px solid $gray-300;
   }
-
+  
   &--icons {
-    background-color: transparent;
-    border: 0;
-  }
- 
-  &--icons:focus {
-    background-color: transparent; 
     border: 0;
   }
 
   &--profile {
     padding: 8px;
     background-color: transparent;
-    color: $text-default;
     font-size: rem(22px);
     border: 0;
   }
 
-  &__first{
+  &__primary{
     background-color: $primary;
     color: #e3e1e4;
     transition: 0.2s linear;
@@ -52,16 +44,16 @@
 
   &__second:hover {
     background-color: $second-hover;
-    color: $text-default;
+    color: #000;
   }
 
-  &__third {
+  &__success {
     background-color: $red;
     color: #f1f1f1;
     transition: 0.2s linear;
   }
 
-  &__third:hover {
+  &__success:hover {
     background-color: $red-hover;
     color: $text-default;
   }  
@@ -70,22 +62,6 @@
 //BUTTONS ICON
 //------------
 
-.input--icon {
-  position: relative;
-  transition: 0.25s linear;
-}
-
-.input--icon svg {
-  position: absolute;
-  right:0px;
-  bottom: 3px;
-  cursor: pointer;
-  border-radius: 4px; 
-}
-
-.input--icon svg:hover {
-  background-color: rgba(219, 219, 219, 0.5);
-}
 
 
 .btn__user {

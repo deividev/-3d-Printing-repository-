@@ -2,6 +2,7 @@
 //---------
 
 .category {
+  display: grid;
 
   &__head {
     height: rem(280px);
@@ -16,12 +17,14 @@
     color: $text-default;
     text-transform: uppercase;
     font-weight: 700; 
+    border-bottom: 2px solid $text-second;
+    margin-bottom: 40px;
+    padding: 15px 0px;
   }
 
   &__line {
     width: 100%;
     margin-bottom: 40px;
-    border: 1px solid $text-second;
   }
 
   &__container {
@@ -47,5 +50,4 @@
 
 .model:hover {
   padding: 10px;
-  box-shadow: darken($color: #000000, $amount: 0);
 }

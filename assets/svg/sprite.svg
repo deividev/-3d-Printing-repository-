@@ -4,6 +4,14 @@
 <symbol id="google" viewBox="0 0 512 512">
   <title>Icon google</title>
   <!-- Si necesita una descripcion  <desc>Login with google</desc> -->
+  <path d="M18 6L6 18M6 6l12 12"
+    
+    fill="none" 
+    stroke="#000" 
+    stroke-width="2" 
+    stroke-linecap="round" 
+    stroke-linejoin="round"
+  />
   <path d="M113.47 309.408L95.648 375.94l-65.139 1.378C11.042 341.211 0 299.9 0 256c0-42.451 10.324-82.483 28.624-117.732h.014L86.63 148.9l25.404 57.644c-5.317 15.501-8.215 32.141-8.215 49.456.002 18.792 3.406 36.797 9.651 53.408z" fill="#fbbb00"/>
   <path d="M507.527 208.176C510.467 223.662 512 239.655 512 256c0 18.328-1.927 36.206-5.598 53.451-12.462 58.683-45.025 109.925-90.134 146.187l-.014-.014-73.044-3.727-10.338-64.535c29.932-17.554 53.324-45.025 65.646-77.911h-136.89V208.176h245.899z" fill="#518ef8"/>
   <path d="M416.253 455.624l.014.014C372.396 490.901 316.666 512 256 512c-97.491 0-182.252-54.491-225.491-134.681l82.961-67.91c21.619 57.698 77.278 98.771 142.53 98.771 28.047 0 54.323-7.582 76.87-20.818l83.383 68.262z" fill="#28b446"/>
@@ -21,22 +29,27 @@
      stroke-linejoin="round"
   />
 </symbol>
+
 <!-- SEARCH -->
 
-<symbol id="search" viewBox="0 0 24 24">
+<symbol id="search" viewBox="0 0 24 24" width="30px" heigth="30px">
   <title>Icon search</title>
 
 <path d="M21 21l-4.35-4.35"
     fill="none" 
-    stroke="#555" 
+    stroke="#666" 
     stroke-width="2" 
     stroke-linecap="round" 
     stroke-linejoin="round"
   />
-  <circle cx="11" cy="11" r="8" stroke="#555" fill="#fff"/>
+  <circle cx="11" cy="11" r="8" stroke="#666" fill="#fff"/>
 </symbol>
+
+
+
+
 <!-- COLLECTION ICON -->
-<symbol id="collection" viewBox="0 0 24 24">
+<symbol id="collection" viewBox="0 0 24 24" width="30px" heigth="30px">
   <title>Icon collection</title>
   <!-- Si necesita  <desc></desc> -->
   <path d="M3 3h18v18H3zm9 5v8m-4-4h8"
@@ -49,7 +62,7 @@
 </symbol>
 
 <!-- SMS -->
-<symbol id="sms" viewBox="0 0 24 24">
+<symbol id="sms" viewBox="0 0 24 24" width="30px" heigth="30px">
   <title>Icon sms</title>
   <!-- Si necesita  <desc></desc> -->
   <path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"
@@ -62,7 +75,7 @@
 </symbol>
 
 <!-- LOCATION -->
-<symbol id="location" viewBox="0 0 24 24">
+<symbol id="location" viewBox="0 0 24 24" width="30px" heigth="30px">
   <title>Icon location</title>
   <!-- Si necesita  <desc></desc> -->
   
@@ -77,7 +90,7 @@
 </symbol>
 
 <!-- EYE -->
-<symbol id="eye" viewBox="0 0 24 24">
+<symbol id="eye" viewBox="0 0 24 24" width="30px" heigth="30px">
   <title>Icon eye</title>
   <!-- Si necesita  <desc></desc> -->
   
@@ -92,7 +105,7 @@
 </symbol>
 
 <!-- CHECK-RIGHT -->
-<symbol id="right" viewBox="0 0 24 24">
+<symbol id="right" viewBox="0 0 24 24" width="30px" heigth="30px">
   <title>Icon rght</title>
   <!-- Si necesita  <desc></desc> -->
   
@@ -106,7 +119,7 @@
 </symbol>
 
 <!-- CHECK-LEFT -->
-<symbol id="left" viewBox="0 0 24 24">
+<symbol id="left" viewBox="0 0 24 24" width="30px" heigth="30px">
   <title>Icon left</title>
   <!-- Si necesita  <desc></desc> -->
   
@@ -120,7 +133,7 @@
 </symbol>
 
 <!-- BELL -->
-<symbol id="bell" viewBox="0 0 24 24">
+<symbol id="bell" viewBox="0 0 24 24" width="30px" heigth="30px">
   <title>Icon bell</title>
   <!-- Si necesita  <desc></desc> -->
   
@@ -134,7 +147,7 @@
 </symbol>
 
 <!-- EXIT-USER -->
-<symbol id="exit" viewBox="0 0 24 24">
+<symbol id="exit" viewBox="0 0 24 24" width="30px" heigth="30px">
   <title>Icon exit</title>
   <!-- Si necesita  <desc></desc> -->
   
@@ -152,7 +165,7 @@
 <!-- HOVER-ICONS -->
 
 <!-- LIKE -->
-<symbol id="like" viewBox="0 0 24 24">
+<symbol id="like" viewBox="0 0 24 24" width="30px" heigth="30px">
   <title>Icon like</title>
   <!-- Si necesita  <desc></desc> -->
   
@@ -166,7 +179,7 @@
 </symbol>
 
 <!-- COLLECTION-HOVER -->
-<symbol id="collection-hover" viewBox="0 0 24 24">
+<symbol id="collection-hover" viewBox="0 0 24 24" width="30px" heigth="30px">
   <title>Icon collection-hover</title>
   <!-- Si necesita  <desc></desc> -->
   
@@ -180,7 +193,7 @@
 </symbol>
 
 <!-- DOWNLOAD -->
-<symbol id="download" viewBox="0 0 24 24">
+<symbol id="download" viewBox="0 0 24 24" width="30px" heigth="30px">
   <title>Icon download</title>
   <!-- Si necesita  <desc></desc> -->
   

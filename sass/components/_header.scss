@@ -16,17 +16,16 @@
 .navbar {
   width: 100%;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: flex-start;
   background-color: $primary;
 
   &__categories {
-    display: flex;
+    display: flex;   
     align-items: center;
   }
 
-  &__btn {
-    padding: 25px 25px;
+  &__link {
+    padding: 25px 15px;
     font-size: rem(20px);
     text-transform: uppercase;
     color: $third;
@@ -34,7 +33,7 @@
     transition: 0.25s linear;
   }
 
-  &__btn:hover {
+  &__link:hover {
     color: $third;
     background-color: $gray-300;
   }
