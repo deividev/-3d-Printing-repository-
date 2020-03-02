@@ -6,12 +6,12 @@
 }
 
 
-.form {
-  margin: 0px 20px 10px 0px;
-
+.form {    
+  margin: 20px;
   &__group {
     margin-bottom: 10px;
     display: flex;
+    justify-content: center;
     flex-direction: column;
   }
 
@@ -28,8 +28,8 @@
   }
 
   &__label {
-    display: block;
-    margin-bottom: 5px;
+    display: block;     
+    margin: 10px 0px;
     color: $text-default;
   }
 
@@ -44,6 +44,21 @@
     color: $text-default;
   }
 
+  &__control--error {
+    border-color: $red;
+  }    
+
+  &__item {
+    position: relative;
+    z-index: 10;
+  }
+
+  &__control--icon {
+    position: absolute;
+    z-index: 20;
+    right: 0;
+  }
+
   &__input::placeholder {
     font-size: rem(20px);
     color: $gray-100;
@@ -54,9 +69,7 @@
     border-color: $gray-100;
   }
 
-  &__control--error {
-    border-color: $red;
-  }
+  
 
   &__link {
     color: $gray-300;

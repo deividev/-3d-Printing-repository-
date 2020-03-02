@@ -2,6 +2,7 @@
 /*------------*/
 
 .header__container {
+  width: 100%;
   height: rem(60px);
   display: flex;
   justify-content: space-between;
@@ -16,12 +17,16 @@
 .navbar {
   width: 100%;
   display: flex;
-  justify-content: flex-start;
+  justify-content: flex-start;  
   background-color: $primary;
+    
+  &__profile {      
+    border-bottom: 2px solid $text-second;
+  }
 
-  &__categories {
+  &__categories {        
     display: flex;   
-    align-items: center;
+    align-items: center;    
   }
 
   &__link {
@@ -37,11 +42,7 @@
     color: $third;
     background-color: $gray-300;
   }
-
-  &__btn--underline {
-    border-bottom: 4px solid $gray-200;
-  }
-}
+}    
 
 //-----
 // BTNS RIGTH
