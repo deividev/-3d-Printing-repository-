@@ -68,14 +68,15 @@
     background-color: $red-hover;
     color: $text-default;
   }  
-
+              
   &__icon {
-    height: 2.5rem;
-    background-color: transparent;
+    height: rem(32px);          
+    margin: 0px 0px 0px 5px;        
     border: 0;
     border-radius: 4px;
-    cursor: pointer;
-    outline: none;  
+    cursor: pointer;        
+    outline: none; 
+    background: none;
   }
 }
 //------------

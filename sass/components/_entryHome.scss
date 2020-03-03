@@ -6,11 +6,15 @@
   height: 20.313rem;
 
   &__container {
-    margin-left: 30px;
+    margin-left: 10px;
     display: flex;
     justify-content: center;
     flex-direction: column;
   }
+      
+  &__title {
+    margin-bottom: 10px;
+  }  
 }
 
 
