@@ -28,12 +28,12 @@
         </form>
         <div class="btnHeader">
           <a class="btn btn__success" type="button">Upload</a>
-          <button class="btn btn--icons" type="button">
+          <button class="btn btn__icon" type="button">
             <svg>
               <use xlink:href="../assets/svg/sprite.svg#collection"></use>
             </svg>
           </button>
-          <button class="btn btn--icons" type="button">
+          <button class="btn btn__icon" type="button">
             <svg>
               <use xlink:href="../assets/svg/sprite.svg#bell"></use>
             </svg>
@@ -68,16 +68,18 @@
         <div class="entryHome__title">
           <h1>Buscas modelos 3d?</h1>
           <p>Encuentra el modelo 3d que necesites para imprimirlo.</p>
-          <div class="search">
-            <label class="search__label" for="search"></label>
-            <div class="input--icon">
-              <input class="search__control" id="search" type="search">
-              <svg>
-                <use xlink:href="../assets/svg/sprite.svg#search"></use>
-              </svg>
-            </div>
+        </div>
+          <form  action="...">
+            <div class="search" id="search">
+              <label class="search__label" for="search"></label>
+              <input class="search__control" id="search" name="search" type="text">
+              <button type="button" class="btn__icon search__control--icon">
+                <svg >
+                  <use xlink:href="../assets/svg/sprite.svg#search"></use>
+                </svg>
+              </button>
           </div>
-      </div>
+          </form>
     </section>
     <!-- ENTRY HOME -->
     <!-- **** -->
